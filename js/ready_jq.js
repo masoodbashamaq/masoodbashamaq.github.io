@@ -113,4 +113,10 @@ $(document).ready(function() {
 		$("#oth-menu").click(function(){
 			$("#oth-show").click();
         });
+		$(".ms-bt").click(function(){
+			$(".hs,.hs-img").parent().removeClass("active");
+			$(".vs,.vs-img").parent().removeClass("active");
+			$(".wd,.wd-img").parent().removeClass("active");
+			$(".ms,.ms-img").parent().addClass("active");
+		});
 });
